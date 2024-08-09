@@ -1,1 +1,54 @@
 /*Ini file CSS*/
+form {
+    padding: 12px;
+    background-color: aliceblue;
+}
+
+h4 {
+    font-size: 1;
+}
+
+main {
+    display: flex;
+}
+
+aside {
+    padding: 48px;
+}
+
+.main-title {
+    text-align: center;
+}
+
+button {
+    background-color: rgb(104, 130, 247);
+    height: 40px;
+    border-radius: 8px;
+    border-color: rgb(54, 146, 232);
+    margin: 5px;
+}
+
+.reset {
+    background-color: white;
+    border-radius: 8px;
+    border-color: rgb(177, 200, 218);
+
+}
+ #quantity {
+    width: 40%;
+    height: 30px;
+    
+ }
+
+ input{
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: monospace;
+    font-size: 14px;
+  }
+
+  footer {
+    text-align: center;
+  }
