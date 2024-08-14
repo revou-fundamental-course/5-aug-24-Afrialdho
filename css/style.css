@@ -1,54 +1,59 @@
-/*Ini file CSS*/
-form {
-    padding: 12px;
-    background-color: aliceblue;
-}
+ body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: left;
+      align-items: left;
+      height: 100vh;
+      margin: 0;
+      background-color: #f0f0f0;
+    }
 
-h4 {
-    font-size: 1;
-}
+    .calculator {
+      text-align: center;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+    }
 
-main {
-    display: flex;
-}
+    label {
+      display: block;
+      margin-top: 10px;
+    }
 
-aside {
-    padding: 48px;
-}
+    input {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      box-sizing: border-box;
+    }
 
-.main-title {
-    text-align: center;
-}
+    button {
+      margin-top: 10px;
+      padding: 10px;
+      background-color: #3498db;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
 
-button {
-    background-color: rgb(104, 130, 247);
-    height: 40px;
-    border-radius: 8px;
-    border-color: rgb(54, 146, 232);
-    margin: 5px;
-}
+    button:hover {
+      background-color: #2980b9;
+    }
 
-.reset {
-    background-color: white;
-    border-radius: 8px;
-    border-color: rgb(177, 200, 218);
+    #result {
+      margin-top: 20px;
+      font-weight: bold;
+    }
 
-}
- #quantity {
-    width: 40%;
-    height: 30px;
-    
- }
+    h3 {
+      padding: 12px;
+    }
 
- input{
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    font-family: monospace;
-    font-size: 14px;
-  }
-
-  footer {
-    text-align: center;
-  }
+    form {
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      margin: 0%;
+    }
